@@ -1,0 +1,5 @@
+*/10 7-23 * * * /data/xxtMonitor/checkinfo.sh
+0 8 * * * sh check.sh
+0 17 * * * sh check.sh
+*/10 7-23 * * * /data/mqcmpp/checkmqcmpp.sh
+0 1 * * * sh /data/housekeep/cleanlogstash_192.sh
